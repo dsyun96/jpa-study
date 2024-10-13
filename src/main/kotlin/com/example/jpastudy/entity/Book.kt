@@ -1,6 +1,7 @@
 package com.example.jpastudy.entity
 
-import jakarta.persistence.*
+import javax.persistence.*
+
 
 @Entity
 class Book {
