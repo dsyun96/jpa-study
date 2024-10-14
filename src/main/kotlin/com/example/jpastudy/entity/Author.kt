@@ -14,4 +14,8 @@ class Author {
     val age: Int = 0
     val genre: String = ""
     val name: String = ""
+
+    override fun toString(): String {
+        return "Author(id=$id, age=$age, genre=$genre, name=$name)"
+    }
 }
