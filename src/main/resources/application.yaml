@@ -17,3 +17,12 @@ spring:
   sql:
     init:
       mode: always
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework:
+      orm.jpa: DEBUG
+      transaction: DEBUG
+    org.hibernate.engine.transaction.internal:
+      TransactionImpl: DEBUG
