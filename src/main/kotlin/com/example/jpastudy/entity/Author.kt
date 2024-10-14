@@ -11,7 +11,7 @@ class Author {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0L
 
-    val age: Int = 0
-    val genre: String = ""
-    val name: String = ""
+    var age: Int = 0
+    var genre: String = ""
+    var name: String = ""
 }
