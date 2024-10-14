@@ -18,7 +18,7 @@ class AuthorService(
 
         authorRepository.saveAndFlush(author)
 
-        Thread.sleep(15_000)
+        authorRepository.sleepQuery()
 
         println("The end!")
     }
