@@ -17,7 +17,6 @@ class AuthorService(
         author.name = "Mark Janel"
 
         authorRepository.saveAndFlush(author)
-
         authorRepository.sleepQuery()
 
         println("The end!")
