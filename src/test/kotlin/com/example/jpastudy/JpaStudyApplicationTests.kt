@@ -8,6 +8,7 @@ class JpaStudyApplicationTests {
 
 	@Test
 	fun contextLoads() {
+		println("Loaded!")
 	}
 
 }
