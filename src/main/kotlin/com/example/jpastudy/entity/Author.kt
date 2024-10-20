@@ -1,9 +1,6 @@
 package com.example.jpastudy.entity
 
-import jakarta.persistence.Entity
-import jakarta.persistence.GeneratedValue
-import jakarta.persistence.GenerationType
-import jakarta.persistence.Id
+import jakarta.persistence.*
 
 @Entity
 class Author {
@@ -11,7 +8,12 @@ class Author {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0L
 
-    val age: Int = 0
-    val genre: String = ""
-    val name: String = ""
+    @Lob
+    @Basic(fetch = FetchType.LAZY)
+    @Column(length = 100000)
+    var avatar: ByteArray? = null
+
+    var age: Int = 0
+    var genre: String = ""
+    var name: String = ""
 }
