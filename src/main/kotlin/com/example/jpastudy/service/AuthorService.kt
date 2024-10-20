@@ -43,6 +43,14 @@ class AuthorService(
         return author
     }
 
+    @Transactional
+    fun updateAuthor(author: Author) {
+        authorRepository.save(author)
+
+        println("Persistent Context after saving read-write entity:")
+        briefOverviewOfPersistentContextContent()
+    }
+
     private fun briefOverviewOfPersistentContextContent() {
         val persistenceContext: org.hibernate.engine.spi.PersistenceContext = getPersistenceContext()
 

@@ -19,4 +19,12 @@ class ReadModeTest {
     fun fetchAuthorReadOnlyMode() {
         authorService.fetchAuthorReadOnlyMode()
     }
+
+    @Test
+    fun updateAuthor() {
+        val author = authorService.fetchAuthorReadOnlyMode() ?: throw IllegalArgumentException()
+
+        author.age += 1
+        authorService.updateAuthor(author)
+    }
 }
