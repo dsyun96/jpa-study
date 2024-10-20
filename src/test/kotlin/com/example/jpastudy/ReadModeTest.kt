@@ -14,4 +14,9 @@ class ReadModeTest {
     fun fetchAuthorReadWriteMode() {
         authorService.fetchAuthorReadWriteMode()
     }
+
+    @Test
+    fun fetchAuthorReadOnlyMode() {
+        authorService.fetchAuthorReadOnlyMode()
+    }
 }

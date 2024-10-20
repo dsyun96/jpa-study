@@ -30,6 +30,19 @@ class AuthorService(
         return author
     }
 
+    @Transactional(readOnly = true)
+    fun fetchAuthorReadOnlyMode(): Author? {
+        println("Persistent Context before fetching read-only entity:")
+        briefOverviewOfPersistentContextContent()
+
+        val author = authorRepository.findByName("Joana Nimar")
+
+        println("\n\nPersistent Context after fetching read-only entity:")
+        briefOverviewOfPersistentContextContent()
+
+        return author
+    }
+
     private fun briefOverviewOfPersistentContextContent() {
         val persistenceContext: org.hibernate.engine.spi.PersistenceContext = getPersistenceContext()
 
