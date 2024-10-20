@@ -1,4 +1,4 @@
-package com.example.jpastudy.entity
+package com.example.jpastudy.ds1
 
 import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
@@ -11,7 +11,8 @@ class Author {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0L
 
-    val age: Int = 0
-    val genre: String = ""
-    val name: String = ""
+    var age: Int = 0
+    var genre: String = ""
+    var name: String = ""
+    var books: String = ""
 }

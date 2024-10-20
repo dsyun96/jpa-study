@@ -1,6 +1,5 @@
-package com.example.jpastudy.repository
+package com.example.jpastudy.ds2
 
-import com.example.jpastudy.entity.Book
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 

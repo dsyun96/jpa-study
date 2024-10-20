@@ -1,6 +1,5 @@
-package com.example.jpastudy.repository
+package com.example.jpastudy.ds1
 
-import com.example.jpastudy.entity.Author
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
