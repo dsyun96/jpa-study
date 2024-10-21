@@ -16,5 +16,5 @@ interface AuthorRepository : JpaRepository<Author, Long> {
         value = "SELECT a FROM Author a LEFT JOIN FETCH a.books WHERE a.genre = ?1",
         countQuery = "SELECT COUNT(a) FROM Author a WHERE a.genre = ?1"
     )
-    fun fetchWithBooksByGenreCQ(genre: String, pageable: Pageable): Page<Author>
+    fun fetchWithBooksByGenre(genre: String, pageable: Pageable): Page<Author>
 }
