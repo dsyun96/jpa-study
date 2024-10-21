@@ -17,7 +17,7 @@
 - [항목 23 - 하이버네이트 Bytecode Enhancement를 통한 엔터티 속성 지연 로딩 방법](https://github.com/dsyun96/jpa-study/tree/item-23)
 - [항목 86 - HikariCP 설정 커스터마이징 방법](https://github.com/dsyun96/jpa-study/tree/item-86)
 - [항목 87 - 2개의 커넥션 풀을 갖는 2개의 데이터 소스 구성 방법](https://github.com/dsyun96/jpa-study/tree/item-87)
-- 항목 96 - SELECT COUNT 서브쿼리 및 Page<entity/dto>를 사용한 오프셋 페이지네이션 최적화 방법
+- [항목 96 - SELECT COUNT 서브쿼리 및 Page<entity/dto>를 사용한 오프셋 페이지네이션 최적화 방법](https://github.com/dsyun96/jpa-study/tree/item-96)
 - 항목 97 - JOIN FETCH 및 Pageable 사용 방법
 - 항목 100 - 키세트 페이지네이션 구현 방법
 - 항목 101 - 키세트 페이지네이션에 다음 페이지 버튼 추가 방법
