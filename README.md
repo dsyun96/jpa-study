@@ -24,3 +24,4 @@
 
 # 3주차
 - [항목 3 - 단방향 @ManyToOne의 효율성](https://github.com/dsyun96/jpa-study/tree/item-3)
+- [항목 4 - @ManyToMany 연관관계를 효과적으로 구성하는 방법](https://github.com/dsyun96/jpa-study/tree/item-4)
