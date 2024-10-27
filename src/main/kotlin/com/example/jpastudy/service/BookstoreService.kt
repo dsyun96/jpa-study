@@ -62,4 +62,11 @@ class BookstoreService(
 
         books.add(bookRepository.save(book))
     }
+
+    @Transactional
+    fun fetchBooksOfAuthorsByIdAndDeleteFirstBook(authorId: Long) {
+        val books = bookRepository.fetchBooksOfAuthorsById(authorId)
+
+        bookRepository.delete(books.removeAt(0))
+    }
 }

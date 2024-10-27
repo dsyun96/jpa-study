@@ -34,4 +34,9 @@ class Test {
     fun fetchBooksOfAuthorsByIdAndAddNewBook() {
         bookstoreService.fetchBooksOfAuthorsByIdAndAddNewBook(4L)
     }
+
+    @Test
+    fun fetchBooksOfAuthorsByIdAndDeleteFirstBook() {
+        bookstoreService.fetchBooksOfAuthorsByIdAndDeleteFirstBook(4L)
+    }
 }
