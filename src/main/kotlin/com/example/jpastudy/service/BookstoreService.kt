@@ -30,4 +30,10 @@ class BookstoreService(
 
         book.isbn = "not available"
     }
+
+    @Transactional
+    fun fetchBooksOfAuthorById(authorId: Long) {
+        val books = bookRepository.fetchBooksOfAuthorsById(authorId)
+        books[0].isbn = "not available"
+    }
 }

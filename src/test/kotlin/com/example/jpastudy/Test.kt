@@ -19,4 +19,9 @@ class Test {
     fun updateBook() {
         bookstoreService.updateBook()
     }
+
+    @Test
+    fun fetchBooksOfAuthorsById() {
+        bookstoreService.fetchBooksOfAuthorById(4L)
+    }
 }
