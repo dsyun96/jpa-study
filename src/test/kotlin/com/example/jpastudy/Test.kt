@@ -23,4 +23,9 @@ class Test {
 
         println(objectMapper.writeValueAsString(authors))
     }
+
+    @Test
+    fun fetchPageOfAuthorsWithBooksByGenreTuple() {
+        bookstoreService.fetchPageOfAuthorsWithBooksByGenreTuple("Anthology", 0, 3)
+    }
 }

@@ -30,4 +30,21 @@ class BookstoreService(
 
         return pageOfAuthors
     }
+
+    @Transactional
+    fun fetchPageOfAuthorsWithBooksByGenreTuple(genre: String, page: Int, size: Int): Page<Author> {
+        val pageable = PageRequest.of(page, size, Sort.by(Sort.Direction.ASC, "name"))
+
+        val tuples = authorRepository.fetchTupleOfIdsByGenre(genre, pageable)
+        val listOfIds = MutableList(tuples.size) { 0L }
+
+        tuples.forEach { tuple ->
+            listOfIds.add(tuple.get("id") as Long)
+        }
+
+        val listOfAuthors = authorRepository.fetchWithBooksJoinFetch(listOfIds)
+        val pageOfAuthors = PageImpl(listOfAuthors, pageable, tuples[0].get("total") as Long)
+
+        return pageOfAuthors
+    }
 }
