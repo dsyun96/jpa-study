@@ -28,4 +28,12 @@ class Test {
     fun fetchPageOfAuthorsWithBooksByGenreTuple() {
         bookstoreService.fetchPageOfAuthorsWithBooksByGenreTuple("Anthology", 0, 3)
     }
+
+    @Test
+    fun fetchSliceAuthorsWithBooksByGenre() {
+        val slices = bookstoreService.fetchSliceAuthorsWithBooksByGenre("Anthology", 0, 3)
+        val mapper = ObjectMapper().writerWithDefaultPrettyPrinter()
+
+        println(mapper.writeValueAsString(slices))
+    }
 }

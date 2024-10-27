@@ -2,10 +2,7 @@ package com.example.jpastudy.service
 
 import com.example.jpastudy.entity.Author
 import com.example.jpastudy.repository.AuthorRepository
-import org.springframework.data.domain.Page
-import org.springframework.data.domain.PageImpl
-import org.springframework.data.domain.PageRequest
-import org.springframework.data.domain.Sort
+import org.springframework.data.domain.*
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 
@@ -46,5 +43,16 @@ class BookstoreService(
         val pageOfAuthors = PageImpl(listOfAuthors, pageable, tuples[0].get("total") as Long)
 
         return pageOfAuthors
+    }
+
+    @Transactional
+    fun fetchSliceAuthorsWithBooksByGenre(genre: String, page: Int, size: Int): Slice<Author> {
+        val pageable = PageRequest.of(page, size, Sort.by(Sort.Direction.ASC, "name"))
+
+        val pageOfIds = authorRepository.fetchSliceOfIdsByGenre(genre, pageable)
+        val listOfAuthors = authorRepository.fetchWithBooks(pageOfIds.content)
+        val sliceOfAuthors = SliceImpl(listOfAuthors, pageable, pageOfIds.hasNext())
+
+        return sliceOfAuthors
     }
 }

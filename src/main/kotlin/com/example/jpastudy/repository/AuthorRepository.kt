@@ -5,6 +5,7 @@ import jakarta.persistence.QueryHint
 import jakarta.persistence.Tuple
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable
+import org.springframework.data.domain.Slice
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Query
 import org.springframework.stereotype.Repository
@@ -37,4 +38,8 @@ interface AuthorRepository : JpaRepository<Author, Long> {
     @Transactional(readOnly = true)
     @Query(value = "SELECT DISTINCT a FROM Author a LEFT JOIN FETCH a.books WHERE a.id IN ?1")
     fun fetchWithBooksJoinFetch(authorIds: List<Long>): List<Author>
+
+    @Transactional(readOnly = true)
+    @Query(value = "SELECT a.id FROM Author a WHERE a.genre = ?1")
+    fun fetchSliceOfIdsByGenre(genre: String, pageable: Pageable): Slice<Long>
 }
