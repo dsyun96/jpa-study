@@ -6,6 +6,7 @@ import org.springframework.data.domain.Pageable
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Query
 import org.springframework.stereotype.Repository
+import org.springframework.transaction.annotation.Transactional
 
 @Repository
 interface AuthorRepository : JpaRepository<Author, Long> {
@@ -14,4 +15,12 @@ interface AuthorRepository : JpaRepository<Author, Long> {
         countQuery = "SELECT COUNT(a) FROM Author a WHERE a.genre = ?1",
     )
     fun fetchWithBooksByGenre(genre: String, pageable: Pageable): Page<Author>
+
+    @Transactional(readOnly = true)
+    @Query(value = "SELECT a.id FROM Author a WHERE a.genre = ?1")
+    fun fetchPageOfIdsByGenre(genre: String, pageable: Pageable): Page<Long>
+
+    @Transactional(readOnly = true)
+    @Query(value = "SELECT DISTINCT a FROM Author a LEFT JOIN FETCH a.books WHERE a.id IN ?1")
+    fun fetchWithBooks(authorIds: List<Long>): List<Author>
 }

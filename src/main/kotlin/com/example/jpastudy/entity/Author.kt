@@ -1,9 +1,10 @@
 package com.example.jpastudy.entity
 
 import jakarta.persistence.*
+import java.io.Serializable
 
 @Entity
-class Author {
+class Author : Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0L

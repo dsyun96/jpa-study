@@ -1,11 +1,10 @@
 package com.example.jpastudy
 
 import com.example.jpastudy.service.BookstoreService
+import com.fasterxml.jackson.databind.ObjectMapper
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertThrows
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
-import org.springframework.orm.jpa.JpaSystemException
 
 @SpringBootTest
 class Test {
@@ -14,8 +13,14 @@ class Test {
 
     @Test
     fun fetchWithBooksBy() {
-        assertThrows<JpaSystemException> {
-            bookstoreService.fetchWithBooksBy("Anthology", 0, 3)
-        }
+        bookstoreService.fetchWithBooksBy("Anthology", 0, 3)
+    }
+
+    @Test
+    fun fetchAuthorsWithBooksByGenre() {
+        val authors = bookstoreService.fetchAuthorsWithBooksByGenre("Anthology", 0, 3)
+        val objectMapper = ObjectMapper().writerWithDefaultPrettyPrinter()
+
+        println(objectMapper.writeValueAsString(authors))
     }
 }
