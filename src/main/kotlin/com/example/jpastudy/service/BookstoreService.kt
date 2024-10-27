@@ -12,7 +12,7 @@ class BookstoreService(
     private val bookRepository: BookRepository
 ) {
     @Transactional
-    fun insertNewBook() {
+    fun insertNewBook(): Book {
         val author = authorRepository.getReferenceById(4L)
 
         val book = Book().apply {
@@ -21,6 +21,13 @@ class BookstoreService(
             this.author = author
         }
 
-        bookRepository.save(book)
+        return bookRepository.save(book)
+    }
+
+    @Transactional
+    fun updateBook() {
+        val book = insertNewBook()
+
+        book.isbn = "not available"
     }
 }

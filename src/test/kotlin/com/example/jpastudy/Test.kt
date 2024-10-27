@@ -14,4 +14,9 @@ class Test {
     fun insertNewBook() {
         bookstoreService.insertNewBook()
     }
+
+    @Test
+    fun updateBook() {
+        bookstoreService.updateBook()
+    }
 }
