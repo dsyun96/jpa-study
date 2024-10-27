@@ -14,4 +14,9 @@ class Test {
     fun persistAuthorWithBooksAndRemoveOneBookList() {
         bookstoreService.persistAuthorWithBooksAndRemoveOneBookList()
     }
+
+    @Test
+    fun persistAuthorWithBooksAndRemoveOneBookSet() {
+        bookstoreService.persistAuthorWithBooksAndRemoveOneBookSet()
+    }
 }
