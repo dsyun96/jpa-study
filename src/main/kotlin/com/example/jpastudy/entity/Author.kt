@@ -1,9 +1,6 @@
 package com.example.jpastudy.entity
 
-import jakarta.persistence.Entity
-import jakarta.persistence.GeneratedValue
-import jakarta.persistence.GenerationType
-import jakarta.persistence.Id
+import jakarta.persistence.*
 
 @Entity
 class Author {
@@ -14,4 +11,11 @@ class Author {
     val age: Int = 0
     val genre: String = ""
     val name: String = ""
+
+    @OneToMany(
+        cascade = [CascadeType.ALL],
+        mappedBy = "author",
+        orphanRemoval = true
+    )
+    var books: MutableList<Book> = mutableListOf()
 }
