@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional
 interface BookRepository : JpaRepository<Book, Long> {
     @Transactional(readOnly = true)
     @Query("SELECT b FROM Book b WHERE b.author.id = :authorId")
-    fun fetchBooksOfAuthorsById(authorId: Long): List<Book>
+    fun fetchBooksOfAuthorsById(authorId: Long): MutableList<Book>
 
     @Transactional(readOnly = true)
     @Query("SELECT b FROM Book b WHERE b.author.id = :authorId")

@@ -49,4 +49,17 @@ class BookstoreService(
 
         books.forEach { book -> println(book) }
     }
+
+    @Transactional
+    fun fetchBooksOfAuthorsByIdAndAddNewBook(authorId: Long) {
+        val books = bookRepository.fetchBooksOfAuthorsById(authorId)
+
+        val book = Book().apply {
+            isbn = "004-JN"
+            title = "History Facts"
+            author = books[0].author
+        }
+
+        books.add(bookRepository.save(book))
+    }
 }
