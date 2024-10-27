@@ -10,6 +10,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
+        query:
+          fail_on_pagination_over_collection_fetch: true
     defer-datasource-initialization: true
   sql:
     init:
@@ -19,3 +21,4 @@ logging:
   level:
     org.hibernate.SQL: debug
     org.hibernate.orm.jdbc.bind: trace
+
