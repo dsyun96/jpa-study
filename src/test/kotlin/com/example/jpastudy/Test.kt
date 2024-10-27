@@ -24,4 +24,9 @@ class Test {
     fun fetchBooksOfAuthorsById() {
         bookstoreService.fetchBooksOfAuthorById(4L)
     }
+
+    @Test
+    fun fetchPageBooksOfAuthorsById() {
+        bookstoreService.fetchPageBooksOfAuthorById(4L)
+    }
 }

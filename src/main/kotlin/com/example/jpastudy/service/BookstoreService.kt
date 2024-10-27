@@ -3,6 +3,8 @@ package com.example.jpastudy.service
 import com.example.jpastudy.entity.Book
 import com.example.jpastudy.repository.AuthorRepository
 import com.example.jpastudy.repository.BookRepository
+import org.springframework.data.domain.PageRequest
+import org.springframework.data.domain.Sort
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 
@@ -34,6 +36,17 @@ class BookstoreService(
     @Transactional
     fun fetchBooksOfAuthorById(authorId: Long) {
         val books = bookRepository.fetchBooksOfAuthorsById(authorId)
-        books[0].isbn = "not available"
+
+        books.forEach { book -> println(book) }
+    }
+
+    @Transactional
+    fun fetchPageBooksOfAuthorById(authorId: Long) {
+        val books = bookRepository.fetchPageBooksOfAuthorsById(
+            authorId = authorId,
+            pageable = PageRequest.of(0, 2, Sort.by(Sort.Direction.ASC, "title"))
+        )
+
+        books.forEach { book -> println(book) }
     }
 }

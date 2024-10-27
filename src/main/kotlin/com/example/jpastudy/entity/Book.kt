@@ -14,4 +14,8 @@ class Book {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "author_id")
     var author: Author? = null
+
+    override fun toString(): String {
+        return "Book(id=$id, isbn='$isbn', title='$title')"
+    }
 }
