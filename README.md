@@ -21,3 +21,6 @@
 - [항목 97 - JOIN FETCH 및 Pageable 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-97)
 - [항목 100 - 키세트 페이지네이션 구현 방법](https://github.com/dsyun96/jpa-study/tree/item-100)
 - [항목 101 - 키세트 페이지네이션에 다음 페이지 버튼 추가 방법](https://github.com/dsyun96/jpa-study/tree/item-101)
+
+# 3주차
+- [항목 3 - 단방향 @ManyToOne의 효율성](https://github.com/dsyun96/jpa-study/tree/item-3)
