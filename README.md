@@ -29,3 +29,4 @@
 - [항목 6 - CascadeType.REMOVE 및 orphanRemoval=true를 사용해 하위 엔터티 제거를 피해야 하는 이유와 시기](https://github.com/dsyun96/jpa-study/tree/item-6)
 - [항목 24 - 서브엔터티를 통한 엔터티 속성 지연 로딩 방법](https://github.com/dsyun96/jpa-study/tree/item-24)
 - [항목 98 - HHH000104 조치 방법](https://github.com/dsyun96/jpa-study/tree/item-98)
+- [항목 99 - Slice<T> findAll() 구현 방법](https://github.com/dsyun96/jpa-study/tree/item-99)
