@@ -31,3 +31,4 @@
 - [항목 98 - HHH000104 조치 방법](https://github.com/dsyun96/jpa-study/tree/item-98)
 - [항목 99 - Slice<T> findAll() 구현 방법](https://github.com/dsyun96/jpa-study/tree/item-99)
 - [항목 115 - 프록시를 언프록시하는 방법](https://github.com/dsyun96/jpa-study/tree/item-115)
+- [항목 127 - 스프링에서 네임드(네이티브) 쿼리를 사용하는 방법](https://github.com/dsyun96/jpa-study/tree/item-127)
