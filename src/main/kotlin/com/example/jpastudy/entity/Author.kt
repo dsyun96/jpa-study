@@ -1,12 +1,16 @@
 package com.example.jpastudy.entity
 
-import jakarta.persistence.Entity
-import jakarta.persistence.GeneratedValue
-import jakarta.persistence.GenerationType
-import jakarta.persistence.Id
+import jakarta.persistence.*
+import java.io.Serializable
 
 @Entity
-class Author {
+@NamedEntityGraph(
+    name = "author-books-graph",
+    attributeNodes = [
+        NamedAttributeNode("books")
+    ]
+)
+class Author : Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0L
@@ -14,4 +18,11 @@ class Author {
     val age: Int = 0
     val genre: String = ""
     val name: String = ""
+
+    @OneToMany(
+        cascade = [(CascadeType.ALL)],
+        mappedBy = "author",
+        orphanRemoval = true
+    )
+    var books: MutableList<Book> = mutableListOf()
 }
