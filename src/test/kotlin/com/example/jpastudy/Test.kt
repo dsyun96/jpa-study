@@ -12,6 +12,6 @@ class Test {
 
     @Test
     fun test() {
-        authorRepository.findByAgeLessThanOrderByNameDesc(30)
+        authorRepository.findAll()
     }
 }

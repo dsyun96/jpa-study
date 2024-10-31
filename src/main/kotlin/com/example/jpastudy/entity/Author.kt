@@ -4,12 +4,6 @@ import jakarta.persistence.*
 import java.io.Serializable
 
 @Entity
-@NamedEntityGraph(
-    name = "author-books-graph",
-    attributeNodes = [
-        NamedAttributeNode("books")
-    ]
-)
 class Author : Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

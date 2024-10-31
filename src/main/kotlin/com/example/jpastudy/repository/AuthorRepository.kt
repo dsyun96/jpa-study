@@ -10,8 +10,8 @@ import org.springframework.transaction.annotation.Transactional
 @Transactional(readOnly = true)
 interface AuthorRepository : JpaRepository<Author, Long> {
     @EntityGraph(
-        value = "author-books-graph",
+        attributePaths = ["books"],
         type = EntityGraph.EntityGraphType.FETCH
     )
-    fun findByAgeLessThanOrderByNameDesc(age: Int): List<Author>
+    override fun findAll(): List<Author>
 }
