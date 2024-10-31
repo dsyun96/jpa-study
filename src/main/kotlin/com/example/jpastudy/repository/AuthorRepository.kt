@@ -13,5 +13,5 @@ interface AuthorRepository : JpaRepository<Author, Long> {
         value = "author-books-graph",
         type = EntityGraph.EntityGraphType.FETCH
     )
-    override fun findAll(): List<Author>
+    fun findByAgeLessThanOrderByNameDesc(age: Int): List<Author>
 }
