@@ -33,3 +33,6 @@
 - [항목 115 - 프록시를 언프록시하는 방법](https://github.com/dsyun96/jpa-study/tree/item-115)
 - [항목 127 - 스프링에서 네임드(네이티브) 쿼리를 사용하는 방법](https://github.com/dsyun96/jpa-study/tree/item-127)
 - [항목 134 - 장기 HTTP 통신에서의 낙관적 잠금 메커니즘 및 분리된 엔터티 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-134)
+
+# 4주차
+- [항목 7 - JPA 엔터티 그래프를 통해 연관관계를 가져오는 방법](https://github.com/dsyun96/jpa-study/tree/item-7)
