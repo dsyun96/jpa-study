@@ -3,23 +3,6 @@ package com.example.jpastudy.entity
 import jakarta.persistence.*
 
 @Entity
-@NamedEntityGraph(
-    name = "author-books-publisher-graph",
-    attributeNodes = [
-        NamedAttributeNode(
-            value = "books",
-            subgraph = "publisher-subgraph"
-        )
-    ],
-    subgraphs = [
-        NamedSubgraph(
-            name = "publisher-subgraph",
-            attributeNodes = [
-                NamedAttributeNode("publisher")
-            ]
-        )
-    ]
-)
 class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

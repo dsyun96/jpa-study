@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional
 @Transactional(readOnly = true)
 interface AuthorRepository : JpaRepository<Author, Long> {
     @EntityGraph(
-        value = "author-books-publisher-graph",
+        attributePaths = ["books.publisher"],
         type = EntityGraph.EntityGraphType.FETCH
     )
     override fun findAll(): List<Author>
