@@ -13,5 +13,9 @@ class Book {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "author_id")
-    var author: Author = Author()
+    var author: Author? = null
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "publisher_id")
+    var publisher: Publisher? = null
 }
