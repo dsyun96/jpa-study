@@ -40,3 +40,4 @@
 - [항목 9 - 엔터티 그래프 및 기본 속성 처리 방법](https://github.com/dsyun96/jpa-study/tree/item-9)
 - [항목 10 - 하이버네이트 @Where 어노테이션을 통한 연관관계 필터링 처리](https://github.com/dsyun96/jpa-study/tree/item-10)
 - [항목 16 - 불변 엔터티 작성 방법](https://github.com/dsyun96/jpa-study/tree/item-16)
+- [항목 17 - 엔터티 복제 방법](https://github.com/dsyun96/jpa-study/tree/item-17)
