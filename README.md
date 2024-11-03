@@ -38,3 +38,4 @@
 - [항목 7 - JPA 엔터티 그래프를 통해 연관관계를 가져오는 방법](https://github.com/dsyun96/jpa-study/tree/item-7)
 - [항목 8 - JPA 엔터티 서브그래프를 통해 연관관계를 가져오는 방법](https://github.com/dsyun96/jpa-study/tree/item-8)
 - [항목 9 - 엔터티 그래프 및 기본 속성 처리 방법](https://github.com/dsyun96/jpa-study/tree/item-9)
+- [항목 10 - 하이버네이트 @Where 어노테이션을 통한 연관관계 필터링 처리](https://github.com/dsyun96/jpa-study/tree/item-10)
