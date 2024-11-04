@@ -44,3 +44,4 @@
 - [항목 25 - 스프링 프로젝션을 통한 DTO 가져오기](https://github.com/dsyun96/jpa-study/tree/item-25)
 - [항목 26 - 스프링 프로젝션에서 엔터티를 추가하는 방법](https://github.com/dsyun96/jpa-study/tree/item-26)
 - [항목 46 - 스프링 부트 스타일 배치 등록 방법](https://github.com/dsyun96/jpa-study/tree/item-46)
+- [항목 47 - 부모-자식 관계 배치 등록 최적화 방법](https://github.com/dsyun96/jpa-study/tree/item-47)
