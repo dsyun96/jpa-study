@@ -41,3 +41,4 @@
 - [항목 10 - 하이버네이트 @Where 어노테이션을 통한 연관관계 필터링 처리](https://github.com/dsyun96/jpa-study/tree/item-10)
 - [항목 16 - 불변 엔터티 작성 방법](https://github.com/dsyun96/jpa-study/tree/item-16)
 - [항목 17 - 엔터티 복제 방법](https://github.com/dsyun96/jpa-study/tree/item-17)
+- [항목 25 - 스프링 프로젝션을 통한 DTO 가져오기](https://github.com/dsyun96/jpa-study/tree/item-25)
