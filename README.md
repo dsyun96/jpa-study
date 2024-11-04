@@ -42,3 +42,4 @@
 - [항목 16 - 불변 엔터티 작성 방법](https://github.com/dsyun96/jpa-study/tree/item-16)
 - [항목 17 - 엔터티 복제 방법](https://github.com/dsyun96/jpa-study/tree/item-17)
 - [항목 25 - 스프링 프로젝션을 통한 DTO 가져오기](https://github.com/dsyun96/jpa-study/tree/item-25)
+- [항목 26 - 스프링 프로젝션에서 엔터티를 추가하는 방법](https://github.com/dsyun96/jpa-study/tree/item-26)
