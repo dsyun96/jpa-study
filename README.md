@@ -51,7 +51,7 @@
 - [항목 20 - 애그리거트 루트로부터 최적의 도메인 이벤트 발행](https://github.com/dsyun96/jpa-study/tree/item-20)
 - [항목 48 - 세션 수준에서 배치 크기 제어 방법](https://github.com/dsyun96/jpa-study/tree/item-48)
 - [항목 49 - 포크/조인 JDBC 배치 처리 방법](https://github.com/dsyun96/jpa-study/tree/item-49)
-- 항목 50 - CompletableFuture를 통한 엔터티 배치 처리
+- [항목 50 - CompletableFuture를 통한 엔터티 배치 처리](https://github.com/dsyun96/jpa-study/tree/item-50)
 - 항목 51 - 배치 업데이트에 대한 효율적인 처리 방법
 - 항목 52 - 효율적으로 배치 삭제하는 방법(연관관계 없이)
 - 항목 53 - 효율적으로 배치 삭제하는 방법(연관관계와 함께)
