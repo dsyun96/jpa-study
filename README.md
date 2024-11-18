@@ -56,5 +56,5 @@
 - [항목 52 - 효율적으로 배치 삭제하는 방법(연관관계 없이)](https://github.com/dsyun96/jpa-study/tree/item-52)
 - [항목 53 - 효율적으로 배치 삭제하는 방법(연관관계와 함께)](https://github.com/dsyun96/jpa-study/tree/item-53)
 - [항목 54 - 배치로 연관관계 가져오는 방법](https://github.com/dsyun96/jpa-study/tree/item-54)
-- 항목 84 - 임계치를 사용한 느린 쿼리 로그 방법
+- [항목 84 - 임계치를 사용한 느린 쿼리 로그 방법](https://github.com/dsyun96/jpa-study/tree/item-84)
 - 항목 85 - 트랜잭션 및 쿼리 메서드 상세 로깅
