@@ -60,7 +60,7 @@
 - [항목 85 - 트랜잭션 및 쿼리 메서드 상세 로깅](https://github.com/dsyun96/jpa-study/tree/item-85)
 
 # 6주차
-- 항목 18: 더티 트래킹을 활성화하는 이유와 방법
+- [항목 18: 더티 트래킹을 활성화하는 이유와 방법](https://github.com/dsyun96/jpa-study/tree/item-18)
 - 항목 19: 불리언을 Yes/No로 매핑하는 방법
 - 항목 68: equals() 및 hashCode()를 올바로 오버라이드하는 방법
 - 항목 81: SQL문 카운트 및 어설션 사용 이유와 방법
