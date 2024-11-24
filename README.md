@@ -64,7 +64,7 @@
 - [항목 19: 불리언을 Yes/No로 매핑하는 방법](https://github.com/dsyun96/jpa-study/tree/item-19)
 - [항목 68: equals() 및 hashCode()를 올바로 오버라이드하는 방법](https://github.com/dsyun96/jpa-study/tree/item-68)
 - [항목 81: SQL문 카운트 및 어설션 사용 이유와 방법](https://github.com/dsyun96/jpa-study/tree/item-81)
-- 항목 82: 프리페어드 스테이트먼트 바인딩 및 추출 파라미터 로깅 방법
+- [항목 82: 프리페어드 스테이트먼트 바인딩 및 추출 파라미터 로깅 방법](https://github.com/dsyun96/jpa-study/tree/item-82)
 - 항목 83: 쿼리 상세 정보 로깅 방법
 - 항목 110: OSIV 안티패턴 회피 이유와 방법
 - 항목 126: 하이버네이트 @DynamicUpdate를 통해 수정된 칼럼만 UPDATE문에 포함하는 방법
