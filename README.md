@@ -66,7 +66,7 @@
 - [항목 81: SQL문 카운트 및 어설션 사용 이유와 방법](https://github.com/dsyun96/jpa-study/tree/item-81)
 - [항목 82: 프리페어드 스테이트먼트 바인딩 및 추출 파라미터 로깅 방법](https://github.com/dsyun96/jpa-study/tree/item-82)
 - [항목 83: 쿼리 상세 정보 로깅 방법](https://github.com/dsyun96/jpa-study/tree/item-83)
-- 항목 110: OSIV 안티패턴 회피 이유와 방법
+- [항목 110: OSIV 안티패턴 회피 이유와 방법](https://github.com/dsyun96/jpa-study/tree/item-110)
 - 항목 126: 하이버네이트 @DynamicUpdate를 통해 수정된 칼럼만 UPDATE문에 포함하는 방법
 - 항목 145: 자바 열거형을 데이터베이스에 효율적으로 매핑하는 방법
 - 항목 146: JSON 자바 객체를 MySQL JSON 칼럼에 효율적으로 매핑하는 방법
