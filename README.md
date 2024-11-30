@@ -73,7 +73,7 @@
 
 # 7주차
 - [항목 39: 단일 SELECT로 부모와 연관관계를 효율적으로 가져오는 방법](https://github.com/dsyun96/jpa-study/tree/item-39)
-- 항목 40: JOIN과 JOIN FETCH 결정 방법
+- [항목 40: JOIN과 JOIN FETCH 결정 방법](https://github.com/dsyun96/jpa-study/tree/item-40)
 - 항목 69: 스프링 스타일로 하이버네이트 @NaturalId를 사용하는 방법
 - 항목 70: 하이버네이트 @NaturalId 사용 및 엔터티 식별자 조회 생략 방법
 - 항목 71: @NaturalId 칼럼 참조 연관관계 정의 방법
