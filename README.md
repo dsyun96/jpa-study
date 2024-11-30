@@ -70,3 +70,15 @@
 - [항목 126: 하이버네이트 @DynamicUpdate를 통해 수정된 칼럼만 UPDATE문에 포함하는 방법](https://github.com/dsyun96/jpa-study/tree/item-126)
 - [항목 145: 자바 열거형을 데이터베이스에 효율적으로 매핑하는 방법](https://github.com/dsyun96/jpa-study/tree/item-145)
 - [항목 146: JSON 자바 객체를 MySQL JSON 칼럼에 효율적으로 매핑하는 방법](https://github.com/dsyun96/jpa-study/tree/item-146)
+
+# 7주차
+- 항목 39: 단일 SELECT로 부모와 연관관계를 효율적으로 가져오는 방법
+- 항목 40: JOIN과 JOIN FETCH 결정 방법
+- 항목 69: 스프링 스타일로 하이버네이트 @NaturalId를 사용하는 방법
+- 항목 70: 하이버네이트 @NaturalId 사용 및 엔터티 식별자 조회 생략 방법
+- 항목 71: @NaturalId 칼럼 참조 연관관계 정의 방법
+- 항목 72: 자동 생성 키를 얻는 방법
+- 항목 73: 커스텀 시퀀스 ID를 생성하는 방법
+- 항목 92: 스프링 부트에서 Flyway 설정 방법
+- 항목 93: schema-*.sql을 통한 두 데이터베이스 생성과 엔터티 매칭 방법
+- 항목 104: JPA 콜백 설정 방법
