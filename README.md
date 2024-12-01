@@ -78,7 +78,7 @@
 - [항목 70: 하이버네이트 @NaturalId 사용 및 엔터티 식별자 조회 생략 방법](https://github.com/dsyun96/jpa-study/tree/item-70)
 - [항목 71: @NaturalId 칼럼 참조 연관관계 정의 방법](https://github.com/dsyun96/jpa-study/tree/item-71)
 - [항목 72: 자동 생성 키를 얻는 방법](https://github.com/dsyun96/jpa-study/tree/item-72)
-- 항목 73: 커스텀 시퀀스 ID를 생성하는 방법
-- 항목 92: 스프링 부트에서 Flyway 설정 방법
+- [항목 73: 커스텀 시퀀스 ID를 생성하는 방법](https://github.com/dsyun96/jpa-study/tree/item-73)
+- [항목 92: 스프링 부트에서 Flyway 설정 방법](https://github.com/dsyun96/jpa-study/tree/item-92)
 - 항목 93: schema-*.sql을 통한 두 데이터베이스 생성과 엔터티 매칭 방법
 - 항목 104: JPA 콜백 설정 방법
