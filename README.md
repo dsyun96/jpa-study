@@ -81,4 +81,4 @@
 - [항목 73: 커스텀 시퀀스 ID를 생성하는 방법](https://github.com/dsyun96/jpa-study/tree/item-73)
 - [항목 92: 스프링 부트에서 Flyway 설정 방법](https://github.com/dsyun96/jpa-study/tree/item-92)
 - [항목 93: schema-*.sql을 통한 두 데이터베이스 생성과 엔터티 매칭 방법](https://github.com/dsyun96/jpa-study/tree/item-93)
-- 항목 104: JPA 콜백 설정 방법
+- [항목 104: JPA 콜백 설정 방법](https://github.com/dsyun96/jpa-study/tree/item-104)
