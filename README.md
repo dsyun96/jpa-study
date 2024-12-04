@@ -82,3 +82,15 @@
 - [항목 92: 스프링 부트에서 Flyway 설정 방법](https://github.com/dsyun96/jpa-study/tree/item-92)
 - [항목 93: schema-*.sql을 통한 두 데이터베이스 생성과 엔터티 매칭 방법](https://github.com/dsyun96/jpa-study/tree/item-93)
 - [항목 104: JPA 콜백 설정 방법](https://github.com/dsyun96/jpa-study/tree/item-104)
+
+# 8주차
+- 항목 12: 단 하나의 연관관계만 Null이 아닌지 확인하는 방법
+- 항목 13: 엔터티의 플루언트 API 스타일 적용 방법
+- 항목 74: 복합 기본키를 효율적으로 구현하는 방법
+- 항목 75: 복합키에서 관계를 정의하는 방법
+- 항목 77: 산출된 비영속 속성 매핑 방법
+- 항목 78: @Generated를 통한 산출된 영속 속성 매핑 방법
+- 항목 79: JPQL 쿼리에서 여러 파라미터와 함께 SQL 함수 사용 방법
+- 항목 80: @JoinFormula를 통해 @ManyToOne 관계를 SQL 쿼리에 매핑하는 방법
+- 항목 90: 영속성 콘텍스트를 확인하는 방법
+- 항목 91: 테이블 메타데이터 추출 방법
