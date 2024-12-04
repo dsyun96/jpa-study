@@ -85,7 +85,7 @@
 
 # 8주차
 - [항목 12: 단 하나의 연관관계만 Null이 아닌지 확인하는 방법](https://github.com/dsyun96/jpa-study/tree/item-12)
-- 항목 13: 엔터티의 플루언트 API 스타일 적용 방법
+- [항목 13: 엔터티의 플루언트 API 스타일 적용 방법](https://github.com/dsyun96/jpa-study/tree/item-13)
 - 항목 74: 복합 기본키를 효율적으로 구현하는 방법
 - 항목 75: 복합키에서 관계를 정의하는 방법
 - 항목 77: 산출된 비영속 속성 매핑 방법
