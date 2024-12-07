@@ -89,7 +89,7 @@
 - [항목 74: 복합 기본키를 효율적으로 구현하는 방법](https://github.com/dsyun96/jpa-study/tree/item-74)
 - [항목 75: 복합키에서 관계를 정의하는 방법](https://github.com/dsyun96/jpa-study/tree/item-75)
 - [항목 77: 산출된 비영속 속성 매핑 방법](https://github.com/dsyun96/jpa-study/tree/item-77)
-- 항목 78: @Generated를 통한 산출된 영속 속성 매핑 방법
+- [항목 78: @Generated를 통한 산출된 영속 속성 매핑 방법](https://github.com/dsyun96/jpa-study/tree/item-78)
 - 항목 79: JPQL 쿼리에서 여러 파라미터와 함께 SQL 함수 사용 방법
 - 항목 80: @JoinFormula를 통해 @ManyToOne 관계를 SQL 쿼리에 매핑하는 방법
 - 항목 90: 영속성 콘텍스트를 확인하는 방법
