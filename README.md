@@ -93,4 +93,4 @@
 - [항목 79: JPQL 쿼리에서 여러 파라미터와 함께 SQL 함수 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-79)
 - [항목 80: @JoinFormula를 통해 @ManyToOne 관계를 SQL 쿼리에 매핑하는 방법](https://github.com/dsyun96/jpa-study/tree/item-80)
 - [항목 90: 영속성 콘텍스트를 확인하는 방법](https://github.com/dsyun96/jpa-study/tree/item-90)
-- 항목 91: 테이블 메타데이터 추출 방법
+- [항목 91: 테이블 메타데이터 추출 방법](https://github.com/dsyun96/jpa-study/tree/item-91)
