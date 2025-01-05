@@ -94,3 +94,15 @@
 - [항목 80: @JoinFormula를 통해 @ManyToOne 관계를 SQL 쿼리에 매핑하는 방법](https://github.com/dsyun96/jpa-study/tree/item-80)
 - [항목 90: 영속성 콘텍스트를 확인하는 방법](https://github.com/dsyun96/jpa-study/tree/item-90)
 - [항목 91: 테이블 메타데이터 추출 방법](https://github.com/dsyun96/jpa-study/tree/item-91)
+
+# 9주차
+- 항목 21: 다이렉트 페치 사용 방법
+- 항목 44: JOIN 페이지네이션 방법
+- 항목 45: 결과 세트를 스트림하는 방법(MySQL) 및 Streamable 유틸리티의 사용 방법
+- 항목 56: @ElementCollection 컬렉션 JOIN FETCH 방법
+- 항목 57: @ElementCollection에 대한 DTO 방법
+- 항목 116: 데이터베이스 뷰 매핑 방법
+- 항목 117: 데이터베이스 뷰 수정 방법
+- 항목 120: 모든 그룹의 상위 N개 행을 효율적으로 찾는 방법
+- 항목 122: IN 절 파라미터 패딩을 통한 SQL 캐싱 향상 방법
+- 항목 135: 엔터티가 수정되지 않은 경우에도 잠긴 엔터티 버전을 증가시키는 방법
