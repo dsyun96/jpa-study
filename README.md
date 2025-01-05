@@ -96,7 +96,7 @@
 - [항목 91: 테이블 메타데이터 추출 방법](https://github.com/dsyun96/jpa-study/tree/item-91)
 
 # 9주차
-- 항목 21: 다이렉트 페치 사용 방법
+- [항목 21: 다이렉트 페치 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-21)
 - 항목 44: JOIN 페이지네이션 방법
 - 항목 45: 결과 세트를 스트림하는 방법(MySQL) 및 Streamable 유틸리티의 사용 방법
 - 항목 56: @ElementCollection 컬렉션 JOIN FETCH 방법
