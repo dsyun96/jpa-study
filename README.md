@@ -100,7 +100,7 @@
 - [항목 44: JOIN 페이지네이션 방법](https://github.com/dsyun96/jpa-study/tree/item-44)
 - [항목 45: 결과 세트를 스트림하는 방법(MySQL) 및 Streamable 유틸리티의 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-45)
 - [항목 56: @ElementCollection 컬렉션 JOIN FETCH 방법](https://github.com/dsyun96/jpa-study/tree/item-56)
-- 항목 57: @ElementCollection에 대한 DTO 방법
+- [항목 57: @ElementCollection에 대한 DTO 방법](https://github.com/dsyun96/jpa-study/tree/item-57)
 - 항목 116: 데이터베이스 뷰 매핑 방법
 - 항목 117: 데이터베이스 뷰 수정 방법
 - 항목 120: 모든 그룹의 상위 N개 행을 효율적으로 찾는 방법
