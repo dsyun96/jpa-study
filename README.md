@@ -102,7 +102,7 @@
 - [항목 56: @ElementCollection 컬렉션 JOIN FETCH 방법](https://github.com/dsyun96/jpa-study/tree/item-56)
 - [항목 57: @ElementCollection에 대한 DTO 방법](https://github.com/dsyun96/jpa-study/tree/item-57)
 - [항목 116: 데이터베이스 뷰 매핑 방법](https://github.com/dsyun96/jpa-study/tree/item-116)
-- 항목 117: 데이터베이스 뷰 수정 방법
+- [항목 117: 데이터베이스 뷰 수정 방법](https://github.com/dsyun96/jpa-study/tree/item-117)
 - 항목 120: 모든 그룹의 상위 N개 행을 효율적으로 찾는 방법
 - 항목 122: IN 절 파라미터 패딩을 통한 SQL 캐싱 향상 방법
 - 항목 135: 엔터티가 수정되지 않은 경우에도 잠긴 엔터티 버전을 증가시키는 방법
