@@ -106,3 +106,15 @@
 - [항목 120: 모든 그룹의 상위 N개 행을 효율적으로 찾는 방법](https://github.com/dsyun96/jpa-study/tree/item-120)
 - [항목 122: IN 절 파라미터 패딩을 통한 SQL 캐싱 향상 방법](https://github.com/dsyun96/jpa-study/tree/item-122)
 - [항목 135: 엔터티가 수정되지 않은 경우에도 잠긴 엔터티 버전을 증가시키는 방법](https://github.com/dsyun96/jpa-study/tree/item-135)
+
+# 10주차
+- 항목 31: 생성자 표현식을 통해 DTO를 가져오는 방법
+- 항목 32: 생성자 표현식을 통해 DTO에서 엔터티를 가져오지 말아야 하는 이유
+- 항목 58: @ElementCollection과 @OrderColumn을 함께 사용해야 하는 이유와 시기
+- 항목 59: 엔터티 컬렉션 병합 방법
+- 항목 88: 생성 및 수정 시간과 엔터티 사용자 추적 방법
+- 항목 107: 중복된 save() 호출을 피하는 방법
+- 항목 138: 단일 테이블 상속을 효율적으로 사용하는 방법
+- 항목 139: SINGLE_TABLE 상속 계층 구조에서 특정 하위 클래스 가져오기
+- 항목 140: 조인 테이블 상속의 효율적 사용 방법
+- 항목 142: @MappedSuperclass 효율적 사용 방법
