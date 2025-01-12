@@ -108,7 +108,7 @@
 - [항목 135: 엔터티가 수정되지 않은 경우에도 잠긴 엔터티 버전을 증가시키는 방법](https://github.com/dsyun96/jpa-study/tree/item-135)
 
 # 10주차
-- 항목 31: 생성자 표현식을 통해 DTO를 가져오는 방법
+- [항목 31: 생성자 표현식을 통해 DTO를 가져오는 방법](https://github.com/dsyun96/jpa-study/tree/item-31)
 - 항목 32: 생성자 표현식을 통해 DTO에서 엔터티를 가져오지 말아야 하는 이유
 - 항목 58: @ElementCollection과 @OrderColumn을 함께 사용해야 하는 이유와 시기
 - 항목 59: 엔터티 컬렉션 병합 방법
