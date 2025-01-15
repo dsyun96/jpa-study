@@ -117,4 +117,4 @@
 - [항목 138: 단일 테이블 상속을 효율적으로 사용하는 방법](https://github.com/dsyun96/jpa-study/tree/item-138)
 - [항목 139: SINGLE_TABLE 상속 계층 구조에서 특정 하위 클래스 가져오기](https://github.com/dsyun96/jpa-study/tree/item-139)
 - [항목 140: 조인 테이블 상속의 효율적 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-140)
-- 항목 142: @MappedSuperclass 효율적 사용 방법
+- [항목 142: @MappedSuperclass 효율적 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-142)
