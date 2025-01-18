@@ -118,3 +118,15 @@
 - [항목 139: SINGLE_TABLE 상속 계층 구조에서 특정 하위 클래스 가져오기](https://github.com/dsyun96/jpa-study/tree/item-139)
 - [항목 140: 조인 테이블 상속의 효율적 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-140)
 - [항목 142: @MappedSuperclass 효율적 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-142)
+
+# 11주차
+- 항목 65: MySQL에서 하이버네이트 5 AUTO 생성자 타입을 피해야 하는 이유
+- 항목 66: hi/lo 알고리듬을 통한 시퀀스 식별자 생성 최적화 방법
+- 항목 102: ROW_NUMBER()을 통한 페이지네이션 구현 방법
+- 항목 103: 하이버네이트 HINT_PASS_DISTINCT_THROUGH를 통한 SELECT DISTINCT 최적화 방법
+- 항목 106: 포스트 커밋에서 시간 소요가 많은 작업을 피해야 하는 이유
+- 항목 109: 하이버네이트 기반 소프트 삭제 지원 사용 방법
+- 항목 136: PESSIMISTIC_READ/WRITE 작동 방식
+- 항목 137: PESSIMISTIC_WRITE가 UPDATE/INSERT 및 DELETE에서 작동하는 방식
+- 부록 A. (하이버네이트) JPA 기본 사항
+- 부록 G. 스프링 트랜잭션 전파
