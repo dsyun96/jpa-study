@@ -120,7 +120,7 @@
 - [항목 142: @MappedSuperclass 효율적 사용 방법](https://github.com/dsyun96/jpa-study/tree/item-142)
 
 # 11주차
-- 항목 65: MySQL에서 하이버네이트 5 AUTO 생성자 타입을 피해야 하는 이유
+- [항목 65: MySQL에서 하이버네이트 5 AUTO 생성자 타입을 피해야 하는 이유](https://github.com/dsyun96/jpa-study/tree/item-65)
 - 항목 66: hi/lo 알고리듬을 통한 시퀀스 식별자 생성 최적화 방법
 - 항목 102: ROW_NUMBER()을 통한 페이지네이션 구현 방법
 - 항목 103: 하이버네이트 HINT_PASS_DISTINCT_THROUGH를 통한 SELECT DISTINCT 최적화 방법
