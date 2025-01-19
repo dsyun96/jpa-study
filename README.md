@@ -122,7 +122,7 @@
 # 11주차
 - [항목 65: MySQL에서 하이버네이트 5 AUTO 생성자 타입을 피해야 하는 이유](https://github.com/dsyun96/jpa-study/tree/item-65)
 - [항목 66: hi/lo 알고리듬을 통한 시퀀스 식별자 생성 최적화 방법](https://github.com/dsyun96/jpa-study/tree/item-66)
-- 항목 102: ROW_NUMBER()을 통한 페이지네이션 구현 방법
+- [항목 102: ROW_NUMBER()을 통한 페이지네이션 구현 방법](https://github.com/dsyun96/jpa-study/tree/item-102)
 - 항목 103: 하이버네이트 HINT_PASS_DISTINCT_THROUGH를 통한 SELECT DISTINCT 최적화 방법
 - 항목 106: 포스트 커밋에서 시간 소요가 많은 작업을 피해야 하는 이유
 - 항목 109: 하이버네이트 기반 소프트 삭제 지원 사용 방법
