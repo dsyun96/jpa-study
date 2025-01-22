@@ -129,4 +129,4 @@
 - [항목 136: PESSIMISTIC_READ/WRITE 작동 방식](https://github.com/dsyun96/jpa-study/tree/item-136)
 - [항목 137: PESSIMISTIC_WRITE가 UPDATE/INSERT 및 DELETE에서 작동하는 방식](https://github.com/dsyun96/jpa-study/tree/item-137)
 - [부록 A. (하이버네이트) JPA 기본 사항](https://github.com/dsyun96/jpa-study/tree/item-A)
-- 부록 G. 스프링 트랜잭션 전파
+- [부록 G. 스프링 트랜잭션 전파](https://github.com/dsyun96/jpa-study/tree/item-G)
